@@ -1,0 +1,138 @@
+{
+  "blocks": [
+    
+    {
+      "uid": "B_ContentOverviewAndLayout",
+      "name": "Content Overview and Layout",
+      "imageName": "blocks/B_ContentOverviewAndLayout",
+      "facet": "WHAT",
+      "description": "Patterns for structuring and presenting complex or high-volume content"
+    },
+    {
+      "uid": "B_Feedback",
+      "name": "Feedback",
+      "imageName": "blocks/B_Feedback",
+      "facet": "WHAT",
+      "description": "Patterns that inform users about system status, results, or errors"
+    },
+    {
+      "uid": "B_FormsAndInput",
+      "name": "Forms and Input",
+      "imageName": "blocks/B_FormsAndInput",
+      "facet": "WHAT",
+      "description": "Patterns that support efficient and accurate data entry through structured input mechanisms"
+    },
+    {
+      "uid": "B_Navigation",
+      "name": "Navigation",
+      "imageName": "blocks/B_Navigation",
+      "facet": "WHAT",
+      "description": "Patterns that guide users across or within the interface"
+    },
+    {
+      "uid": "B_Personalization",
+      "name": "Personalization",
+      "imageName": "blocks/B_Personalization",
+      "facet": "WHAT",
+      "description": "Patterns that let users customize content, layout, or features"
+    },
+    {
+      "uid": "B_SearchAndFiltering",
+      "name": "Search and Filtering",
+      "imageName": "blocks/B_SearchAndFiltering",
+      "facet": "WHAT",
+      "description": "Patterns that allow users to find and refine information by applying search queries or filters"
+    },
+    {
+      "uid": "B_SocialInteraction",
+      "name": "Social Interaction",
+      "imageName": "blocks/B_SocialInteraction",
+      "facet": "WHAT",
+      "description": "Patterns for communication, sharing, and collaboration among users"
+    },
+    {
+      "uid": "B_VisibilityOfSystemStatus",
+      "name": "Visibility of System Status",
+      "imageName": "blocks/B_VisibilityOfSystemStatus",
+      "facet": "WHY",
+      "description": "The system should keep users informed about what is happening through appropriate and timely feedback"
+    },
+    {
+      "uid": "B_MatchBetweenSystemAndTheRealWorld",
+      "name": "Match Between System and the Real World",
+      "imageName": "blocks/B_MatchBetweenSystemAndTheRealWorld",
+      "facet": "WHY",
+      "description": "The system should use language, concepts, and conventions familiar to users, reflecting real-world logic rather than system-oriented terms. This helps make interactions more intuitive"
+    },
+    {
+      "uid": "B_UserControlAndFreedom",
+      "name": "User Control and Freedom",
+      "imageName": "blocks/B_UserControlAndFreedom",
+      "facet": "WHY",
+      "description": "Users should be able to easily exit or undo unintended actions, avoiding situations where they feel trapped"
+    },
+    {
+      "uid": "B_ConsistencyAndStandards",
+      "name": "Consistency and Standards",
+      "imageName": "blocks/B_ConsistencyAndStandards",
+      "facet": "WHY",
+      "description": "Interfaces should follow platform and industry conventions, using consistent terms, actions, and layouts so that users do not have to guess what different elements mean"
+    },
+    {
+      "uid": "B_ErrorPrevention",
+      "name": "Error Prevention",
+      "imageName": "blocks/B_ErrorPrevention",
+      "facet": "WHY",
+      "description": "The system should be designed to prevent errors from occurring in the first place by providing clear instructions, constraints, and validation before actions are taken"
+    },
+    {
+      "uid": "B_RecognitionRatherThanRecall",
+      "name": "Recognition Rather Than Recall",
+      "imageName": "blocks/B_RecognitionRatherThanRecall",
+      "facet": "WHY",
+      "description": "Interfaces should minimize users’ memory load by making options, actions, and information visible or easily retrievable, instead of requiring them to remember details"
+    },
+    {
+      "uid": "B_FlexibilityAndEfficiencyOfUse",
+      "name": "Flexibility and Efficiency of Use",
+      "imageName": "blocks/B_FlexibilityAndEfficiencyOfUse",
+      "facet": "WHY",
+      "description": "The interface should cater to both inexperienced and experienced users, allowing shortcuts or personalization to increase efficiency for frequent tasks"
+    },
+    {
+      "uid": "B_AestheticAndMinimalistDesign",
+      "name": "Aesthetic and Minimalist Design",
+      "imageName": "blocks/B_AestheticAndMinimalistDesign",
+      "facet": "WHY",
+      "description": "Interfaces should avoid unnecessary information and visual clutter. Every added element should have a clear purpose and contribute to the user’s goals"
+    },
+    {
+      "uid": "B_HelpUsersRecognizeDiagnoseAndRecoveFromErrors",
+      "name": "Help Users Recognize, Diagnose, and Recover from Errors",
+      "imageName": "blocks/B_HelpUsersRecognizeDiagnoseAndRecoveFromErrors",
+      "facet": "WHY",
+      "description": "Error messages should be clear, indicate the problem, and suggest constructive solutions, enabling users to recover without frustration"
+    },
+    {
+      "uid": "B_HelpAndDocumentation",
+      "name": "Help and Documentation",
+      "imageName": "blocks/B_HelpAndDocumentation",
+      "facet": "WHY",
+      "description": "While the system should ideally be usable without documentation, it should provide accessible, concise, and task-focused help resources when needed"
+    },
+    {
+      "uid": "B_UserInitiated",
+      "name": "User Initiated",
+      "imageName": "blocks/B_UserInitiated",
+      "facet": "HOW",
+      "description": "Proactive user actions"
+    },
+    {
+      "uid": "B_SystemInitiated",
+      "name": "System Initiated",
+      "imageName": "blocks/B_SystemInitiated",
+      "facet": "HOW",
+      "description": "System-driven events"
+    }
+  ]
+}

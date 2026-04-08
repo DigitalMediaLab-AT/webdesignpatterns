@@ -1,0 +1,452 @@
+{
+  "patterns": [
+    {
+      "nr": 1,
+      "uid": "Accordion",
+      "title": "Accordion",
+      "imageName": "01_breadcrumbs.png",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "You have a lot of heterogeneous content to show on the page, possibly including text blocks, lists, buttons, form controls, or images, and you don’t have room for everything.",
+        "Problem": "User needs to navigate among a website's sections while still being able to quickly browse to the subsection.",
+        "Solution": "Put modules of content into a collinear stack of panels that the user can close and open independently of one another."
+      },
+      "blocks": [
+        "B_ContentOverviewAndLayout",
+        "B_RecognitionRatherThanRecall",
+        "B_AestheticAndMinimalistDesign",
+        "B_UserInitiated"
+      ],
+      "resources": [
+        {
+          "title": "Link to the design pattern",
+          "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8795044"
+        }
+      ]
+    },
+    {
+      "nr": 2,
+      "uid": "Autocomplete",
+      "title": "Autocomplete",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "Type of information entered can readily be matched with a specific piece of information in the system.",
+        "Problem": "The user needs recognition aided search when performing search tasks that are difficult to remember or easily mistyped.",
+        "Solution": "Suggest possible matches for a search as users are typing."
+      },
+      "blocks": [
+        "B_FormsAndInput",
+        "B_SearchAndFiltering",
+        "B_Feedback",
+        "B_VisibilityOfSystemStatus",
+        "B_UserInitiated"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "uid": "Breadcrumbs",
+      "title": "Breadcrumbs",
+      "imageName": "01_breadcrumbs.png",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "Your application or site has a hierarchical structure with two or more levels.",
+        "Problem": "The user needs to know their location in the website's hierarchical structure in order to possibly browse back to a higher level in the hierarchy.",
+        "Solution": "Reveal the user’s hierarchical location and provide links to higher levels."
+      },
+      "blocks": [
+        "B_Navigation",
+        "B_MatchBetweenSystemAndTheRealWorld",
+        "B_RecognitionRatherThanRecall",
+        "B_SystemInitiated"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 4,
+      "uid": "Cancelability",
+      "title": "Cancelability",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "Users might perform actions that are difficult or impossible to reverse manually",
+        "Problem": "Cancelability reduces user anxiety and prevent errors by giving users freedom to undo actions",
+        "Solution": "Add a clear Cancel or Stop button near the process or loader. Cancel the action instantly and show a confirmation. For multiple tasks, provide separate buttons to avoid confusion"
+      },
+      "blocks": [
+        "B_Feedback",
+        "B_UserControlAndFreedom",
+        "B_SystemInitiated"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 5,
+      "uid": "Captcha",
+      "title": "Captcha",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "Websites that allow user interactions like comments or registrations are vulnerable to spam bot attacks.",
+        "Problem": "The application needs to verify that the data submitted originates from an actual human and not a robot.",
+        "Solution": "The most popular form of Captchas are images that represent letters, objects or numbers inside."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 6,
+      "uid": "Dashboard",
+      "title": "Dashboard",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "You want to provide a high-level overview of key data points in a single information-dense page, updated regularly.",
+        "Problem": "The user wants to digest data from mulitple sources at a glance, need to get a quick update on status, on key information, and on tasks to be done.",
+        "Solution": "It shows useful information, update themselves, usually use graphics to display data."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 7,
+      "uid": "ErrorMessages",
+      "title": "Error Messages",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "You want to show that user has input error, such as a skipped required field or address doesn't exist.",
+        "Problem": "The goal of displaying error messages is to help the user fix their issues and complete their task and recover the poor experience of arriving at a dead link.",
+        "Solution": "Ensure that users know that an error occurred right away, grab users ’ attention to the error."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 8,
+      "uid": "FAQ",
+      "title": "Frequently Asked Questions (FAQ)",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "The user has questions concerning a site and its related services.",
+        "Problem": "FAQ page is where users are likely to go before going to more detailed help to see if their questions can be answered; many users assume their questions are common and likely asked by others.",
+        "Solution": "Provide a space where users can get answers to common questions. Organize Frequently Asked Questions (FAQ) into a separate and routinely maintained section on your site."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 9,
+      "uid": "Favorites",
+      "title": "Favorites",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "Users need a way to quickly return to specific items within large sets of content.",
+        "Problem": "Favorites help users save and access personally relevant content without searching again.",
+        "Solution": "Let users mark items (e.g., with a star or heart icon) and view them later in a dedicated favorites list."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 10,
+      "uid": "GoodDefaults",
+      "title": "Good Defaults",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "Your UI asks the user any questions requiring form-like input (such as text fields), and you want to reduce the amount of work that users need to do.",
+        "Problem": "By providing reasonable default answers to questions, you save the users work.",
+        "Solution": "Pre-fill form fields with a reasonable default value."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 11,
+      "uid": "GridLayout",
+      "title": "Grid Layout",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "The page contains many content items that have similar style and importance, such as news articles, blog posts, products, or subject areas.",
+        "Problem": "You want to present the viewer with rich opportunities to preview and select these items.",
+        "Solution": "A grid that gives each item equal space announces that they have equal importance."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    },
+    {
+      "nr": 12,
+      "uid": "InputFeedback",
+      "title": "Input Feedback",
+      "imageName": "02-conventions.jpg",
+      "imageBlur": "blur",
+      "details": {
+        "Use when": "Users enter data and need quick confirmation or correction to prevent errors.",
+        "Problem": "It reduces mistakes, speeds completion, and builds confidence.",
+        "Solution": "Show clear visual or text cues near the field in real time, using accessible colors and concise messages."
+      },
+      "blocks": [
+        "B_5Explorability",
+        "B_Individual",
+        "B_Science",
+        "B_40Treemap",
+        "B_43Position",
+        "B_44Size",
+        "B_48ColorHue",
+        "B_12Area",
+        "B_13Overlay",
+        "B_16Hover",
+        "B_54Highlight",
+        "B_60Explore",
+        "B_29ResultView",
+        "B_Relational",
+        "B_38NodeLinkDiagram",
+        "B_06Point",
+        "B_30ControlView",
+        "B_17Tap",
+        "B_SpreadPinch",
+        "B_Time",
+        "B_35List",
+        "B_47ColorGradient",
+        "B_Location",
+        "B_37GeograpicMap"
+      ],
+      "resources": [
+        {
+          "title": "Conferences, Coffee and Complexity: Supporting Cognition and Communication at Conventions",
+          "url": "https://ieeexplore.ieee.org/document/6902884"
+        }
+      ]
+    }    
+  ]
+}

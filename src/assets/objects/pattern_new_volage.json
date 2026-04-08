@@ -1,0 +1,43 @@
+{
+    "nr":0,
+    "uid": "systemX",
+    "title": "Weights",
+    "imageName": "dummy.png",
+    "imageBlur":"blur",
+    "details": {
+      "description": "",
+      "userstudy": "",
+      "conclusion": ""
+    },
+    "pattern": [
+      {
+        "title": "Profile Layer",
+        "image": "dummy.png",
+        "description": "Text",
+        "blocks": [
+          "B_XX"
+        ]
+      },
+      {
+        "title": "Context Layer",
+        "image": "dummy.png",
+        "description": "XX",
+        "blocks": [
+          "B_3A",
+          "B_3B"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "type": "Paper",
+        "title": "Paper Title",
+        "url": "http://..."
+      }
+      
+    ],
+    "literature": {
+      "publish_year": "2012",
+      "citication": "Cite Text"
+    }  
+  }

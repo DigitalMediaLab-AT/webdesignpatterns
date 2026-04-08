@@ -1,0 +1,625 @@
+{
+  "blocks": [
+    
+  {
+    "uid": "B_1Transparency",
+    "name": "Navigation",
+    "imageName": "blocks/B_1 Transparency",
+    "facet": "recommenderSystemIssue",
+    "description": "Recommendation systems are 'white boxes', and explain to users why the recommendation was made. This provides at least partial insight into the inner logic of the system."
+  },
+  {
+    "uid": "B_2Justification",
+    "name": "Justification",
+    "imageName": "blocks/B_2 Justifcation",
+    "facet": "recommenderSystemIssue",
+    "description": "An explanation for the recommendations is given to the user, but without mentioning how they were chosen or how the system or how the system works. The system is therefore a 'black box' for users."
+  },
+  {
+    "uid": "B_3Controllability",
+    "name": "Controllability",
+    "imageName": "blocks/B_3 Controllability",
+    "facet": "recommenderSystemIssue",
+    "description": "Involvement of users by providing input and feedback to the system and thus improving the accuracy of the recommendations. For example, ratings are given or preferences are specified."
+  },
+  {
+    "uid": "B_4ColdStart",
+    "name": "Cold Start",
+    "imageName": "blocks/B_4 Cold Start",
+    "facet": "recommenderSystemIssue",
+    "description": "Effective recommendations can only be made when data about the user is known. Often those systems have an inital choose of Elements they like, so that the system can start."
+  },{
+    "uid": "B_5Explorability",
+    "name": "Explorability",
+    "imageName": "blocks/B_5 Explorability",
+    "facet": "recommenderSystemIssue",
+    "description": "Explorability means navigating through information spaces, the viewing of new recommendations, and/or the exploration of the information space."
+  },{
+    "uid": "B_6Novelty",
+    "name": "Novelty",
+    "imageName": "blocks/B_6 Novelty",
+    "facet": "recommenderSystemIssue",
+    "description": "Novelty refers to a recommended item that is new and 'different' for the user."
+  }
+  ,{
+    "uid": "B_7Diversity",
+    "name": "Diversity",
+    "imageName": "blocks/B_7 Diversity",
+    "facet": "recommenderSystemIssue",
+    "description": "Diversity, in the context of a recommendation list, is a broad spectrum of information."
+  },
+  {
+    "uid": "B_8Serendipity",
+    "name": "Serendipity",
+    "imageName": "blocks/B_8 Serendipity",
+    "facet": "recommenderSystemIssue",
+    "description": "Serendipity means serendipitous and delightful discoveries. Serendipity occurs when unexpected circumstances and an 'aha moment' lead to a valuable, unexpected result. unexpected result."
+  },
+  {
+    "uid": "B_49Predict",
+    "name": "Predict",
+    "imageName": "blocks/Predict",
+    "facet": "systemOrUserIntent",
+    "description": "Assessment whether task can be mastered",
+    "exampleImg":"examples/predict.png"
+  },
+  {
+    "uid": "B_50Sort",
+    "name": "Sort",
+    "imageName": "blocks/Sort",
+    "facet": "systemOrUserIntent",
+    "description": "Sort Data Set e.g. by Drag & Drop Action"
+  },
+  {
+    "uid": "B_51Filter",
+    "name": "Filter",
+    "imageName": "blocks/Filter",
+    "facet": "systemOrUserIntent",
+    "description": "Reduce Data Set by e.g. button"
+  },
+  {
+    "uid": "B_52Select",
+    "name": "Select",
+    "imageName": "blocks/B_52Select",
+    "facet": "systemOrUserIntent",
+    "description": "The inclusion or exclusion of data"
+  },
+  {
+    "uid": "B_53Compare",
+    "name": "Compare",
+    "imageName": "blocks/Compare",
+    "facet": "systemOrUserIntent",
+    "description": "Comparison of data or analysis of data stock e.g. by clustering and showing correlations"
+  },
+  {
+    "uid": "B_54Highlight",
+    "name": "Highlight",
+    "imageName": "blocks/Highlight",
+    "facet": "systemOrUserIntent",
+    "description": "Describes a selection which changes an element, e.g. by a frame or a color"
+  },
+  {
+    "uid": "B_55WeightFeatures",
+    "name": "Weight Features",
+    "imageName": "blocks/WeightFeatures",
+    "facet": "systemOrUserIntent",
+    "description": "Weighting in recommender systems gives an understanding of the relative importance of the features of a user profile."
+  },
+  {
+    "uid": "B_56Rate",
+    "name": "Rate",
+    "imageName": "blocks/Rate",
+    "facet": "systemOrUserIntent",
+    "description": "Explicit ratings can be given by e.g. double-clicking or swiping, these are used to collect user preferences; they can be collected via a rating scale (e.g. star icons), binary (e.g. thumb up/down) or stand-alone (e.g. Thumb up/Down)"
+  },
+  {
+    "uid": "B_57Adjust",
+    "name": "Adjust",
+    "imageName": "blocks/Adjust",
+    "facet": "systemOrUserIntent",
+    "description": "By changing parameters"
+  },
+  {
+    "uid": "B_58ShowMore",
+    "name": "Show More/Less",
+    "imageName": "blocks/showmore",
+    "facet": "systemOrUserIntent",
+    "description": "More or leses information about a particular element is shown"
+  },
+  {
+    "uid": "B_59Search",
+    "name": "Search",
+    "imageName": "blocks/search",
+    "facet": "systemOrUserIntent",
+    "description": "Reduce result list by searching"
+  },
+  {
+    "uid": "B_60Explore",
+    "name": "Explore",
+    "imageName": "blocks/Explore",
+    "facet": "systemOrUserIntent",
+    "description": "Discover and navigate through dataset"
+  }   ,
+
+  {
+    "uid": "B_19SetMark",
+    "name": "Set Mark",
+    "imageName": "blocks/SetMark",
+    "facet": "systemOrUserIntent",
+    "description": "To place a marker on a map or a geographic map"
+  },
+
+
+
+  {
+    "uid": "B_Individual",
+    "name": "Individual",
+    "imageName": "blocks/B_Individual",
+    "facet": "contextInformation",
+    "description": "Information observed from independent entities (e.g., users or items) that may share common features, e.g. weather information, user behavior and preference, configurations, groups of elements with common features"
+  },
+  {
+    "uid": "B_Time",
+    "name": "Time",
+    "imageName": "blocks/B_Time",
+    "facet": "contextInformation",
+    "description": "Corresponds to information such as time of the day, current time, day of the week, and season of the year"
+  },
+  {
+    "uid": "B_Location",
+    "name": "Location",
+    "imageName": "blocks/B_Location",
+    "facet": "contextInformation",
+    "description": "Refers to the location associated with the activity of an entity, this location may be physical (e.g. coordinates of the current location, address of a movie theater) or virtual (e.g. IP address of a computer)"
+  },
+  {
+    "uid": "B_Relational",
+    "name": "Relational",
+    "imageName": "blocks/B_Relational",
+    "facet": "contextInformation",
+    "description": "Refers to entity relationships that arise from the circumstances in which the entities are involved e.g. interpersonal relationships"
+  },
+  {
+    "uid": "B_Activity",
+    "name": "Activity",
+    "imageName": "blocks/B_Activity",
+    "facet": "contextInformation",
+    "description": "Refers to the tasks performed by entities at a particular time e.g. shopping"
+  },
+
+  
+  {
+    "uid": "B_Entertainment",
+    "name": "Entertainment",
+    "imageName": "blocks/B_Entertainment",
+    "facet": "dataDomain",
+    "description": "Domains like music or movie"
+  },
+  {
+    "uid": "B_News",
+    "name": "News",
+    "imageName": "blocks/B_News",
+    "facet": "dataDomain",
+    "description": "Domain News, for example articles"
+  }, {
+    "uid": "B_Education",
+    "name": "Education",
+    "imageName": "blocks/B_Education",
+    "facet": "dataDomain",
+    "description": "E-Learning domain"
+  }, {
+    "uid": "B_Tourism",
+    "name": "Tourism",
+    "imageName": "blocks/B_Tourism",
+    "facet": "dataDomain",
+    "description": "Domains like Travel or Food"
+  }, {
+    "uid": "B_SocialNetwork",
+    "name": "Social Network",
+    "imageName": "blocks/B_Social Network",
+    "facet": "dataDomain",
+    "description": "Social Media data"
+  }, {
+    "uid": "B_e-Commerce",
+    "name": "E-Commerce",
+    "imageName": "blocks/B_e-Commerce",
+    "facet": "dataDomain",
+    "description": "Concerns domains related to buying and selling and sales transactions on the Internet"
+  },
+   {
+    "uid": "B_Health",
+    "name": "Health",
+    "imageName": "blocks/B_Health",
+    "facet": "dataDomain",
+    "description": ""
+  }, {
+    "uid": "B_Science",
+    "name": "Science",
+    "imageName": "blocks/B_Science",
+    "facet": "dataDomain",
+    "description": ""
+  },
+
+     
+
+     {
+       "uid": "B_31SingleResult",
+       "name": "Single Result",
+       "imageName": "blocks/B_31 Single Result",
+       "facet": "visualizationTechnique",
+       "description": "Result Element in System"
+      },
+      {
+        "uid": "B_32Tile",
+        "name": "Tile",
+        "imageName": "blocks/B_32 Tile",
+        "facet": "visualizationTechnique",
+        "description": "Graphical unit(s) in a system, which are e.g. arranged in a grid"
+       },
+       {
+        "uid": "B_33Map-likeVis",
+        "name": "Metaphoric Map",
+        "imageName": "blocks/B_33 Map-like Vis",
+        "facet": "visualizationTechnique",
+        "description": "For example terrain illustrations, which differ in essential characteristics from the conventional cartographic representations of the surface of the earth"
+       },
+       {
+        "uid": "B_34ProcessChart",
+        "name": "Process Chart",
+        "imageName": "blocks/B_34 Process Chart",
+        "facet": "visualizationTechnique",
+        "description": "Is the graphical form of the process representation"
+       },
+       {
+        "uid": "B_35List",
+        "name": "List",
+        "imageName": "blocks/B_35 List",
+        "facet": "visualizationTechnique",
+        "description": "Denotes an enumeration of elements"
+       },
+       {
+        "uid": "B_37GeograpicMap",
+        "name": "Geographic Map",
+        "imageName": "blocks/B_37 Geograpic Map",
+        "facet": "visualizationTechnique",
+        "description": "Represents geographical areas or regions represents"
+       },
+       {
+        "uid": "B_36ScatterPlot",
+        "name": "Scatter Plot",
+        "imageName": "blocks/B_36 Scatter Plot",
+        "facet": "visualizationTechnique",
+        "description": "Are used to display correlations or to compare attributes, e.g. the rating of users, correlations between recommendations between recommendations and ratings"
+       },
+      
+       {
+        "uid": "B_38NodeLinkDiagram",
+        "name": "Node-Link Diagram",
+        "imageName": "blocks/B_38 Node Link Diagram",
+        "facet": "visualizationTechnique",
+        "description": "For the representation of connections between elements with connecting lines and nodes representing data about users"
+       },
+       {
+        "uid": "B_39BarChart",
+        "name": "Bar Chart",
+        "imageName": "blocks/B_39 Bar Chart",
+        "facet": "visualizationTechnique",
+        "description": "Is a chart that represents data with rectangular bars, the height or length of which is proportional to the values they represent"
+       },
+       {
+        "uid": "B_40Treemap",
+        "name": "Tree Map",
+        "imageName": "blocks/B_40 Treemap",
+        "facet": "visualizationTechnique",
+        "description": "Is used to visualize hierarchical structures, which are represented by nested rectangles"
+       },
+       
+       {
+        "uid": "B_41Cluster",
+        "name": "Cluster",
+        "imageName": "blocks/B_41 Cluster",
+        "facet": "visualizationTechnique",
+        "description": "Are grouped areas that visualize the context"
+       },
+       {
+        "uid": "B_42SenkeyDiagram",
+        "name": "Sankey Diagram",
+        "imageName": "blocks/B_42 Senkey Diagram",
+        "facet": "visualizationTechnique",
+        "description": "Is a graphical representation of quantity flows, in contrast to the flow chart, quantities are represented by quantity-proportional thick arrows",
+        "exampleImg":"examples/flowdiagram.png"
+       },
+       {
+        "uid": "B_43Sunburst",
+        "name": "Sunburst",
+        "imageName": "blocks/Sunburst",
+        "facet": "visualizationTechnique",
+        "description": ""
+       },
+
+       {
+        "uid": "B44_Line_chat",
+        "name": "Line Chart",
+        "imageName": "blocks/B44Line_chart",
+        "facet": "visualizationTechnique",
+        "description": ""
+       },
+
+       {
+        "uid": "B_45TagCloud",
+        "name": "Tag Cloud",
+        "imageName": "blocks/Tagcloud",
+        "facet": "visualizationTechnique",
+        "description": ""
+       },
+
+       {
+        "uid": "B_46RadarChart",
+        "name": "Radar Chart",
+        "imageName": "blocks/RadarChart",
+        "facet": "visualizationTechnique",
+        "description": ""
+       },
+
+       {
+        "uid": "B_47Heatmap",
+        "name": "Heatmap",
+        "imageName": "blocks/Heatmap",
+        "facet": "visualizationTechnique",
+        "description": ""
+       },
+
+       {
+        "uid": "B_48Table",
+        "name": "Table",
+        "imageName": "blocks/Table",
+        "facet": "visualizationTechnique",
+        "description": ""
+       },
+
+
+
+
+
+       {
+        "uid": "B_06Point",
+        "name": "Point",
+        "imageName": "blocks/B_06 Point",
+        "facet": "visualElement",
+        "description": "Is a zero-dimensional (0D) marker"
+      },
+      {
+        "uid": "B_07Text",
+        "name": "Text",
+        "imageName": "blocks/B_07 Text",
+        "facet": "visualElement",
+        "description": "Readable characters"
+      },  
+      {
+        "uid": "B_08Line",
+        "name": "Line",
+        "imageName": "blocks/B_08 Line",
+        "facet": "visualElement",
+        "description": "Is a one-dimensional (1D) marker"
+      }, 
+      {
+        "uid": "B_09Icon",
+        "name": "Icon",
+        "imageName": "blocks/B_09 Icon",
+        "facet": "visualElement",
+        "description": "Visualizes processes, product features or objects"
+      }, 
+      {
+        "uid": "B_10Thumbnail",
+        "name": "Thumbnail",
+        "imageName": "blocks/B_10 Thumbnail",
+        "facet": "visualElement",
+        "description": "Preview image"
+      }, 
+      {
+        "uid": "B_11Glyph",
+        "name": "Glyph",
+        "imageName": "blocks/B_11 Glyph",
+        "facet": "visualElement",
+        "description": "Concrete graphical or typometric representation of a character or or character within a writing system"
+      }, 
+      {
+        "uid": "B_12Area",
+        "name": "Area",
+        "imageName": "blocks/B_12 Area",
+        "facet": "visualElement",
+        "description": "Is a two-dimensional (2D) marker"
+      }, 
+     
+
+
+
+      {
+        "uid": "B_28SearchView",
+        "name": "Search View",
+        "imageName": "blocks/B_28 Search View",
+        "facet": "view",
+        "description": "View with filters to narrow down the result set",
+        "exampleImg":"examples/searchView.png"
+      },
+      {
+        "uid": "B_29ResultView",
+        "name": "Result View",
+        "imageName": "blocks/B_29 Result View",
+        "facet": "view",
+        "description": "For the presentation of result",
+        "exampleImg":"examples/resultView.png"
+
+      },
+      {
+        "uid": "B_30ControlView",
+        "name": "Control View",
+        "imageName": "blocks/B_30 Control View",
+        "facet": "view",
+        "description": "View for setting parameters such as user preferences"
+      },
+
+      {
+        "uid": "B_43Position",
+        "name": "Position",
+        "imageName": "blocks/B_43 Position",
+        "facet": "visualChannel",
+        "description": "Describes the absolute position, for example on a Map"
+      },
+      {
+        "uid": "B_44Size",
+        "name": "Size",
+        "imageName": "blocks/B_44 Size",
+        "facet": "visualChannel",
+        "description": "Specifies how much space a label or symbol takes up"
+      },
+      {
+        "uid": "B_45Tilt",
+        "name": "Tilt",
+        "imageName": "blocks/B_45 Tilt",
+        "facet": "visualChannel",
+        "description": "Or also angle"
+      },
+      {
+        "uid": "B_46Shape",
+        "name": "Shape",
+        "imageName": "blocks/B_46 Shape",
+        "facet": "visualChannel",
+        "description": "Is the shape of an element e.g. star"
+      },
+      {
+        "uid": "B_47ColorGradient",
+        "name": "Color Gradient",
+        "imageName": "blocks/B_47 Color Gradient",
+        "facet": "visualChannel",
+        "description": "Specifies a set of position-dependent colors that are normally used to fill an area"
+      },
+      {
+        "uid": "B_48ColorHue",
+        "name": "Color Hue",
+        "imageName": "blocks/B_48 Color Hue",
+        "facet": "visualChannel",
+        "description": "Is a characteristic or property of a color"
+      },
+
+      {
+        "uid": "B_20PanScroll",
+        "name": "Pan/Scroll",
+        "imageName": "blocks/PanScroll",
+        "facet": "interaction",
+        "description": "Panning (2D) or scrolling (1D)"
+      },
+      {
+        "uid": "B_14Drag",
+        "name": "Drag",
+        "imageName": "blocks/Drag",
+        "facet": "interaction",
+        "description": "A way to operate user interfaces by moving graphical elements"
+      },
+      {
+        "uid": "B_15Swipe",
+        "name": "Swipe",
+        "imageName": "blocks/Swipe",
+        "facet": "interaction",
+        "description": "Combining pointing device or finger movements and clicks to trigger an computer event"
+      },
+      {
+        "uid": "B_17Tap",
+        "name": "Tap",
+        "imageName": "blocks/Tap",
+        "facet": "interaction",
+        "description": "User control to select an object of interest"
+      },
+      {
+        "uid": "B_SpreadPinch",
+        "name": "Spread/Pinch",
+        "imageName": "blocks/Spread",
+        "facet": "interaction",
+        "description": "Gesture e.g. Zoom"
+      },
+      
+      {
+        "uid": "B_55Rotate",
+        "name": "Rotate",
+        "imageName": "blocks/Rotate",
+        "facet": "interaction",
+        "description": ""
+      },
+      {
+        "uid": "B_16Hover",
+        "name": "Hover",
+        "imageName": "blocks/Hover",
+        "facet": "interaction",
+        "description": "Mouseover control, e.g. to display metadata"
+      },
+     
+      
+      {
+        "uid": "B_21Slider",
+        "name": "Slider",
+        "imageName": "blocks/Slider",
+        "facet": "interaction",
+        "description": "Voting between different expressions"
+      },
+      {
+        "uid": "B_22Button",
+        "name": "Button",
+        "imageName": "blocks/Button",
+        "facet": "interaction",
+        "description": "Icon, text, image or button that acts as a link"
+      },
+      {
+        "uid": "B_23InputForm",
+        "name": "Input",
+        "imageName": "blocks/Input",
+        "facet": "interaction",
+        "description": "Data input via UI-Element"
+      },
+     
+      {
+        "uid": "B_25DropdownBox",
+        "name": "Dropdown",
+        "imageName": "blocks/Dropdown",
+        "facet": "interaction",
+        "description": "Is a control element of a graphical user interface, with which a user can select a value from a given list of values"
+      },
+      {
+        "uid": "B_26Toggle",
+        "name": "Toggle",
+        "imageName": "blocks/Toggle",
+        "facet": "interaction",
+        "description": "Change Dataset, eg. between most recommended and least recommended",
+        "exampleImg":"examples/modusSwtich.png"
+
+      },
+      {
+        "uid": "B_Checkbox",
+        "name": "Checkbox",
+        "imageName": "blocks/Checkbox",
+        "facet": "interaction",
+        "description": ""
+      },
+      {
+        "uid": "B_Radio",
+        "name": "Radio",
+        "imageName": "blocks/Radio",
+        "facet": "interaction",
+        "description": ""
+      },
+      {
+        "uid": "B_Tabs",
+        "name": "Tabs",
+        "imageName": "blocks/Tabs",
+        "facet": "interaction",
+        "description": ""
+      },
+     
+      {
+        "uid": "B_13Overlay",
+        "name": "Overlay",
+        "imageName": "blocks/Overlay",
+        "facet": "interaction",
+        "description": "Is a small pop-up window in application programs or web pages, which shows a description of an element of the user interface"
+      }
+	]
+}

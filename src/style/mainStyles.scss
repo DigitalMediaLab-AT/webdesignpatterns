@@ -1,0 +1,167 @@
+$color-WHY:  rgb(243, 181, 109);
+$color-WHAT: rgb(212, 56, 56);
+$color-HOW: rgb(56, 150, 212);
+
+$grid-base-color: rgba(218, 218, 218, 0.829);
+$font-color: rgb(21, 21, 21);
+$dark: rgb(24, 24, 24);
+$active: #007bff;
+$base-color: rgba(243, 243, 243, 0.812);
+$select-color: rgba(148, 137, 208, 0.56);
+$title-color:rgb(10, 56, 86);
+$disabled: rgb(103, 103, 103);
+* {
+  font-size:14px;
+  text-decoration: none !important;
+  color:$font-color;
+
+  ::-moz-selection { /* Code for Firefox */
+    color: $dark !important;
+    background: $select-color !important;
+  }
+  ::selection {
+    color: $dark !important;
+    background: $select-color !important;
+  }
+}
+
+body {
+  background:white;
+}
+
+/*    Bootstrap styling   */
+
+.badge {
+  font-weight:500;
+  z-index: 2;
+  color:white!important;
+  font-size:88%!important;
+}
+
+.badge-dark {
+  color:white!important;
+  background-color: $disabled!important;
+}
+
+hr {
+  margin: 1vh !important;
+}
+
+.card-header {
+  background-color:$base-color!important;
+  padding: 0.2rem 0.25rem;
+}
+
+
+/* Add the blur effect */
+.blur {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+h1,h2,h3 {
+  margin-top:1.2rem!important;
+ }
+
+.kit-img {
+  width:70%;
+}
+
+.block-img img {
+  height: 61px;
+  width: 61px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+
+.title {
+  margin-bottom:1vh;
+  margin-top: 1vh;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size:15px!important;
+
+  &-small {
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height:2;
+    font-size:14px!important;
+  }
+}
+
+.legend {
+  color:$title-color!important;
+}
+
+
+.color {
+  &-WHY {
+    background-color: $color-WHY !important
+  }
+
+  &-WHAT {
+    background-color: $color-WHAT !important;
+  }
+
+  &-HOW {
+    background-color: $color-HOW !important;
+  }
+}
+
+
+.font-color {
+  &-WHY {
+    color: $color-WHY !important;
+  }
+
+  &-WHAT {
+    color: $color-WHAT !important;
+  }
+
+  &-HOW {
+    color: $color-HOW !important;
+  }
+}
+
+
+
+
+// @media only screen and (max-width: 800px) {
+//   .card-body * .block-img {
+//     display:none;
+//   }
+// }
+
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px)  {
+ 
+  .card-body * .block-img {
+    // display:none;
+  }
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+  .card-body * .block-img {
+    // display:none;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
