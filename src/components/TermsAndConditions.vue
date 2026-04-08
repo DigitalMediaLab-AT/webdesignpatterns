@@ -9,7 +9,7 @@
 
           <h1>Terms & Conditions</h1>
 
-          <p><b>Last Updated: December 28, 2022</b></p>
+          <p><b>Last Updated: April 10, 2026</b></p>
 
 
 

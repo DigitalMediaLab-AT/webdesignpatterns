@@ -53,7 +53,7 @@
       "nr": 3,
       "uid": "Breadcrumbs",
       "title": "Breadcrumbs",
-      "imageName": "01_breadcrumbs.png",
+      "imageName": "02-conventions.jpg",
       "imageBlur": "blur",
       "details": {
         "Use when": "Your application or site has a hierarchical structure with two or more levels.",
@@ -108,30 +108,9 @@
         "Solution": "The most popular form of Captchas are images that represent letters, objects or numbers inside."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_FormsAndInput",
+        "B_ConsistencyAndStandards",
+        "B_SystemInitiated"
       ],
       "resources": [
         {
@@ -152,30 +131,10 @@
         "Solution": "It shows useful information, update themselves, usually use graphics to display data."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_ContentOverviewAndLayout",
+        "B_Personalization",
+        "B_VisibilityOfSystemStatus",
+        "B_SystemInitiated"
       ],
       "resources": [
         {
@@ -196,30 +155,9 @@
         "Solution": "Ensure that users know that an error occurred right away, grab users ’ attention to the error."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_Feedback",
+        "B_HelpUsersRecognizeDiagnoseAndRecoveFromErrors",
+        "B_SystemInitiated"
       ],
       "resources": [
         {
@@ -240,30 +178,10 @@
         "Solution": "Provide a space where users can get answers to common questions. Organize Frequently Asked Questions (FAQ) into a separate and routinely maintained section on your site."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_ContentOverviewAndLayout",
+        "B_ConsistencyAndStandards",
+        "B_HelpUsersRecognizeDiagnoseAndRecoveFromErrors",
+        "B_SystemInitiated"
       ],
       "resources": [
         {
@@ -284,30 +202,10 @@
         "Solution": "Let users mark items (e.g., with a star or heart icon) and view them later in a dedicated favorites list."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_Personalization",
+        "B_SocialInteraction",
+        "B_MatchBetweenSystemAndTheRealWorld",
+        "B_UserInitiated"
       ],
       "resources": [
         {
@@ -328,30 +226,10 @@
         "Solution": "Pre-fill form fields with a reasonable default value."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_FormsAndInput",
+        "B_Personalization",
+        "B_ErrorPrevention",
+        "B_SystemInitiated"
       ],
       "resources": [
         {
@@ -372,30 +250,9 @@
         "Solution": "A grid that gives each item equal space announces that they have equal importance."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_ContentOverviewAndLayout",
+        "B_AestheticAndMinimalistDesign",
+        "B_SystemInitiated"
       ],
       "resources": [
         {
@@ -416,30 +273,11 @@
         "Solution": "Show clear visual or text cues near the field in real time, using accessible colors and concise messages."
       },
       "blocks": [
-        "B_5Explorability",
-        "B_Individual",
-        "B_Science",
-        "B_40Treemap",
-        "B_43Position",
-        "B_44Size",
-        "B_48ColorHue",
-        "B_12Area",
-        "B_13Overlay",
-        "B_16Hover",
-        "B_54Highlight",
-        "B_60Explore",
-        "B_29ResultView",
-        "B_Relational",
-        "B_38NodeLinkDiagram",
-        "B_06Point",
-        "B_30ControlView",
-        "B_17Tap",
-        "B_SpreadPinch",
-        "B_Time",
-        "B_35List",
-        "B_47ColorGradient",
-        "B_Location",
-        "B_37GeograpicMap"
+        "B_FormsAndInput",
+        "B_Feedback",
+        "B_ErrorPrevention",
+        "B_HelpUsersRecognizeDiagnoseAndRecoveFromErrors",
+        "B_UserInitiated"
       ],
       "resources": [
         {

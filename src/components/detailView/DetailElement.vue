@@ -1,14 +1,13 @@
 <template>
 
-  <div id="accordion-element">
+  <div>
     <div class="card">
       
-      <div class="card-header" :id="'collapse_' + pattern.title" >
-          <button class="btn btn-link header-box" :aria-controls="pattern.title" 
-              v-bind:href="'#collapse'" 
+      <div class="card-header" :id="'collapse_' + pattern.uid" >
+          <button type="button" class="btn btn-link header-box" :aria-controls="pattern.uid" 
               v-on:click="toggleItem(pattern)"
               data-toggle="collapse" 
-              :data-target="'#' + pattern.title" 
+              :data-target="'#' + pattern.uid" 
               aria-expanded="true">
               
 
@@ -29,7 +28,7 @@
           </button>
       </div>
 
-      <div :id="pattern.title" class="collapse" :aria-labelledby="'collapse_' + pattern.title" data-parent="#accordion-element">
+      <div :id="pattern.uid" class="collapse" :aria-labelledby="'collapse_' + pattern.uid">
         <div class="card-body">
 
           <!--USE WHEN-->

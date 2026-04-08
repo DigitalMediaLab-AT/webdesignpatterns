@@ -119,7 +119,7 @@ export default {
   }
   
   .description {
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: #666;
     line-height: 1.3;
     word-wrap: break-word;

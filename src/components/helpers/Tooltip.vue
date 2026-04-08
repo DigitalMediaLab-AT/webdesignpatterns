@@ -88,7 +88,8 @@ export default defineComponent({
   max-width: 120px;
   display: inline-block;
   line-height: 1.2;
-  padding: 0.1rem 0.2rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9rem;
 }
 
 .tooltip {
